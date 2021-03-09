@@ -1,7 +1,7 @@
 {
     "name": "@rrazvan.dev/ticketing-common",
     "version": "1.0.4",
-    "description": "",
+    "description": "Common logic for ticketing.dev service",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
     "files": [
@@ -12,8 +12,16 @@
         "build": "npm run clean && tsc",
         "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "nodejs",
+        "typescript",
+        "microservices"
+    ],
+    "author": "Razvan Rauta <razvan@rrazvan.dev>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RazvanRauta/nodejs-microservices-common"
+    },
     "license": "ISC",
     "devDependencies": {
         "del-cli": "^3.0.1",
